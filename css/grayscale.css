@@ -272,7 +272,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 100px;
     }
 
     .download-section {
@@ -381,7 +381,9 @@ body {
   display: inline-block;
 }
 
-
+.content-section .vote-results {
+  margin-bottom: 100px;
+}
 
 .ios-download {
   background: url(../img/ios-store.png) no-repeat bottom center scroll;
