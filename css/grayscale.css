@@ -370,6 +370,19 @@ body {
   background-size: contain !important;
 }
 
+.content-section .trophy-image {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.content-section .trophy-image + h4 {
+  display: inline-block;
+}
+
+
+
 .ios-download {
   background: url(../img/ios-store.png) no-repeat bottom center scroll;
 }
